@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Days+One&family=Exo+2:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root{
+	--color-menu:#647FC6;
+	--color-menu-hover:#ff85a5;
+	--color-body:#FFF9ED;
+	--color-primary:#647FC6;
+	--color-titulo:#647FC6;
+	--color-titulo2:#FFF9ED;
+	--color-negro:#303132;
+	--color-amarillo:#F9EE92;
+}
+
+
+body{
+	background-color: var(--color-body);
+	 font-family: "Exo 2", sans-serif;	
+	font-size: 20px;
+}
+
+.nav-section{
+	margin-top: 20px;
+}
+
+
+header{
+	background-color: var(--color-menu);
+	position:fixed;
+	width:100%;
+	z-index: 5000;
+	box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+}
+
+
+.section{
+	padding:5% 0;
+	
+}
+
+.titulos{
+	font-family: "Days One", sans-serif;
+	font-weight: 600;
+	text-transform: uppercase;
+}
+
+#hero{
+	background-image: url("../img/fondo-hero.png");
+	backgound-size: cover;
+	background-position: center;
+	padding: 22% 0;
+	
+}
+
+.btn-primary{
+	background-color: var(--color-primary);
+	font-size:75px;
+		
+}
+
+
+.fondo{ 
+	 background-image: 
+    linear-gradient(rgba(100, 127, 198, 0.98), rgba(100, 127, 198, 0.98)),
+    url("../img/fondo.png");
+    
+  background-size: cover;
+  background-position: center;
+}
+
+
+#acerca-de h2{
+	color: var(--color-titulo2);
+	font-family: "Days One", sans-serif;
+	font-weight: 600;
+	text-transform: uppercase;
+}
+
+#acerca-de p{
+	color: var(--color-titulo2);
+	margin-top:20px;
+}
+
+
+.rasgos{
+	margin-top:70px;
+	color: var(--color-titulo2);
+}
+
+#acerca-de h4{
+	color: var(--color-titulo2);
+	font-family: "Days One", sans-serif;
+	font-weight: 600;
+	margin-top:10px;
+}
+
+
+#servicios h2{
+	color: var(--color-titulo);
+
+}
+
+
+.fondo-azul{
+	background-color:  var(--color-primary);
+}
+
+
+#portafolio .titulos{
+	color:var(--color-titulo2);
+}
+
+
+
+.portafolio-carousel{
+	margin-top: 20px;
+}
+
+.carusel{
+	margin-top: 60px;
+}
+
+.carusel h3{
+	color: var(--color-amarillo);
+	font-family: "Days One", sans-serif;
+}
+
+
+.form-contact{ 
+  margin-top: 25%;
+
+}
+
+.form-contact h3{
+	color: var(--color-titulo);
+	font-family: "Days One", sans-serif;
+	font-weight: 600;
+	margin-bottom:20px;
+}
+
+
+
+#contacto h2{
+	color: var(--color-titulo);
+	margin-bottom: 30px;
+}
+
+.contacts{
+	position:absolute;
+	bottom: 0;
+	margin: 0px 25%;
+}
+
+.contacts i{
+	color: var(--color-titulo2);
+	font-size: 80px;
+	margin-bottom: 20px;
+}
+
+
+
+footer{
+	background-color: var(--color-primary);
+	padding: 20px 0;
+	color: var(--color-titulo2);
+}
+
+
+
+
+
